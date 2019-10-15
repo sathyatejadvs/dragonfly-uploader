@@ -11,11 +11,11 @@ Dragonfly.app.configure do
 
 	datastore :s3,
 	bucket_name: 'satya-ecommerce-app',
-	access_key_id: 'AKIAIZ6T2XDVFKZTQMQA',
-	secret_access_key: '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',
+	access_key_id:  ENV['AWS_ACCESS_KEY_ID'],
+	secret_access_key: ENV['AWS_SECRET_ACCESS_KEY'],
 	url_scheme: 'https',
-	region: 'ap-south-1'
-	
+	region: ENV['AWS_REGION'] 
+
 end
 
 # Logger
