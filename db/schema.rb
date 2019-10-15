@@ -13,6 +13,8 @@
 ActiveRecord::Schema.define(version: 2019_10_15_090026) do
 
   create_table "photos", force: :cascade do |t|
+    t.string "avatar_uid"
+    t.string "title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
