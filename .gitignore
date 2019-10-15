@@ -25,7 +25,11 @@
 /yarn-error.log
 
 /public/assets
+
+#ignore dragonfly images
 /public/system/dragonfly
+/dragonfly.log
+
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
