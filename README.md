@@ -1,24 +1,19 @@
-# README
+# Processing the uploaded image to generate different versions via Dragonfly
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Versions
 
-Things you may want to cover:
+	> Ruby 2.6.3, Rails 5.2.3
 
-* Ruby version
+>Added the following gems:
 
-* System dependencies
+	* sass-rails
 
-* Configuration
+	* dragonfly
 
-* Database creation
+	* dragonfly-s3_data_store
 
-* Database initialization
+	* figaro
 
-* How to run the test suite
+>## Database
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+	*sqlite3
